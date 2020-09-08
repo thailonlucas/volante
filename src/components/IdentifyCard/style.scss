@@ -1,0 +1,25 @@
+.identify-card-container{
+    display: flex; 
+    align-items: flex-start;
+    // flex-direction: column;
+    padding: 8px;
+    
+    .title, .subtitle{
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .title{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .subtitle{
+        font-weight: 400;
+        font-size: 14px;
+        padding-bottom: 4px;
+    }
+
+}

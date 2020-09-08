@@ -13,13 +13,14 @@ export interface IServiceOrder {
     labor?: IServiceOrder[]
 }
 
-export interface IServiceOrderItem {
-    id: string
-    description: string
-    quantity: number
-    value?: number
-    unitaryValue?: number
-    tags?: []
+
+export interface IServiceOrderItem{
+    id?:string
+    description?: string
+    value ?: number
+    qtd?: number
+    total?: number
+    tags?: string
 }
 
 export enum IServiceOrderStatus {
