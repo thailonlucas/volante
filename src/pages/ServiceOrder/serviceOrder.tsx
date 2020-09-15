@@ -12,26 +12,7 @@ const {Option} = Select
 
 interface ServiceOrderProps {
     serviceOrder?: IServiceOrder
-}
-
-const dataSourcce = [
-    {
-      id: '524562',
-      description: 'Para-choque traseiro',
-      value: 32,
-      qtd: 1,
-      total: 32,
-      tags: 'recuperação; pintura'
-    },
-    {
-      id: '223434',
-      description: 'Junta homocinética',
-      value: 42.5,
-      qtd: 1,
-      total: 42.5,
-      tags: 'troca'
-    },
-  ];
+} 
 
 const ServiceOrderPage : React.SFC<ServiceOrderProps> = ({serviceOrder}) => {
     const [dataSource, setdataSource] = useState<IServiceOrderItem[]>([])

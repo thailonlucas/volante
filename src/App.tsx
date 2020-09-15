@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import ServiceOrderPage from './pages/ServiceOrder/serviceOrder';
-// import 'antd/dist/antd.css'
-
+import 'antd/dist/antd.css'
+// import '~antd/dist/antd.less';
 
 function App() {
   return (
