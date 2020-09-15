@@ -1,4 +1,8 @@
-/* @import '~antd/dist/antd.dark.css'; */
-/* @import '~antd/dist/antd.less';
- */
- $primary-color: #f00;
+.ant-btn-primary{
+    background-color: #252525!important;
+    border-color: #252525!important
+}
+
+.ant-layout-sider{
+    background-color: #252525!important;
+}
